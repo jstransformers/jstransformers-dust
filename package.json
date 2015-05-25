@@ -6,26 +6,25 @@
     "jstransformer",
     "dust"
   ],
-  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
   "dependencies": {
     "dustjs-linkedin": "^2.5.1",
     "promise": "^7.0.1"
   },
   "devDependencies": {
-    "coveralls": "^2.11.2",
-    "istanbul": "^0.3.5"
+    "istanbul": "^0.3.5",
+    "testit": "^2.0.2"
   },
   "scripts": {
     "test": "node test",
-    "coverage": "istanbul cover test",
-    "coveralls": "npm run coverage && cat ./coverage/lcov.info | coveralls"
+    "coverage": "istanbul cover test"
   },
-  "files": [
-    "index.js"
-  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/jstransformers/jstransformer-dust.git"
   },
-  "author": "Rob Loach <robloach@gmail.com>"
+  "author": "Rob Loach <robloach@gmail.com>",
+  "license": "MIT"
 }
