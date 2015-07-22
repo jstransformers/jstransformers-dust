@@ -1,7 +1,7 @@
 {
   "name": "jstransformer-dust",
-  "version": "0.0.2",
-  "description": "Dust support for JS Transformers.",
+  "version": "0.0.3",
+  "description": "Dust support for JSTransformers.",
   "keywords": [
     "jstransformer",
     "dust"
@@ -10,21 +10,23 @@
     "index.js"
   ],
   "dependencies": {
-    "dustjs-linkedin": "^2.5.1",
+    "dustjs-linkedin": "^2.7.2",
     "promise": "^7.0.1"
   },
   "devDependencies": {
-    "istanbul": "^0.3.5",
-    "testit": "^2.0.2"
+    "test-jstransformer": "^1.0.0"
   },
   "scripts": {
-    "test": "node test",
-    "coverage": "istanbul cover test"
+    "test": "test-jstransformer",
+    "coverage": "test-jstransformer coverage"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/jstransformers/jstransformer-dust.git"
   },
-  "author": "Rob Loach <robloach@gmail.com>",
+  "author": {
+    "name": "JSTransformers Team",
+    "url": "http://github.com/orgs/jstransformers/people"
+  },
   "license": "MIT"
 }
