@@ -1,0 +1,1 @@
+{title}<ul>{#names}<li>{name}</li>{/names}</ul>
