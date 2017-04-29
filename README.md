@@ -1,5 +1,7 @@
 # jstransformer-dust
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jstransformers/jstransformer-dust.svg)](https://greenkeeper.io/)
+
 [Dust.js](http://github.com/linkedin/dustjs) support for [JSTransformers](http://github.com/jstransformers).
 
 [![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-dust/master.svg)](https://travis-ci.org/jstransformers/jstransformer-dust)
