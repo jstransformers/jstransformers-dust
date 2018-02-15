@@ -11,7 +11,7 @@
   ],
   "dependencies": {
     "dustjs-linkedin": "^2.7.2",
-    "promise": "^7.0.1"
+    "promise": "^8.0.1"
   },
   "devDependencies": {
     "test-jstransformer": "^1.0.0",
