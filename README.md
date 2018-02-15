@@ -15,7 +15,7 @@
 ## API
 
 ```js
-var dust = require('jstransformer')(require('jstransformer-dust'));
+var dust = require('jstransformer')(require('jstransformer-dust'))
 
 var locals = {
   features: [
@@ -25,7 +25,7 @@ var locals = {
     {name: "a little bit of logic"},
     {name: "and more"}
   ]
-};
+}
 dust.renderAsync('Dust does {#features}{name}{@sep}, {/sep}{/features}!', locals).then(function (result) {
   result
   //=> 'Dust does async, helpers, filters, a little bit of logic, and more!'
