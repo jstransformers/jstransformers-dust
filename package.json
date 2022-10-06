@@ -10,7 +10,7 @@
     "index.js"
   ],
   "dependencies": {
-    "dustjs-linkedin": "^2.7.2",
+    "dustjs-linkedin": "^3.0.1",
     "promise": "^8.0.1"
   },
   "devDependencies": {
